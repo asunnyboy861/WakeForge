@@ -1,0 +1,14 @@
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+.env
+GLMProxySecret.txt
+keytext*.md
+COMPETITOR_REPORT.md
+app_audit*.md
+improvement_plan_*.md
+icon_raw.png
+icon_1024.png

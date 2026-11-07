@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A27B28E5A26328AADA17D1 /* GLMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD89C3C4C27B8712895B87 /* GLMClient.swift */; };
+		0F36CC9DF9E7782EF2A60D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB3678854E9155836EC14F4 /* Assets.xcassets */; };
+		12E37FBB90FBDC2C8F19AFC2 /* MentalTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EEEB43047B38B3F505C89C /* MentalTaskView.swift */; };
+		14B641B245147AB5683E934D /* WakeForgeWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A90BD90EF74E71F5755E759 /* WakeForgeWidgetBundle.swift */; };
+		1609AF8ADEB6C6F58C0E90C6 /* StepsTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023420DC91213B3BD90D5B35 /* StepsTaskView.swift */; };
+		1949280E8DB74CED542EB1CD /* StreakStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FA20202DFF358DECCF572 /* StreakStore.swift */; };
+		196B8517B96CC7DD7EB30509 /* CelebrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037D339FC9E572364B9CC769 /* CelebrationView.swift */; };
+		1A780B7706CA76F34E8076FC /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB641CFD942A43ED72E809E /* AlarmListView.swift */; };
+		1B053F7CFBACB4F74EC49C6A /* AppleAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44FAFA46627048A287FBD7 /* AppleAIService.swift */; };
+		24E477DE7667BE71B2C2B2EB /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DC9C5A33B4349C21392CD0 /* PaywallView.swift */; };
+		2896BF1D24A26A72AF26A19B /* WakeForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0DF96A033C3B1741CBAE39 /* WakeForgeApp.swift */; };
+		28BCC681008649E0E6BEAC4C /* BYOStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5768927E6B4D9A3E64F45D75 /* BYOStore.swift */; };
+		469A99B5311A707717D8B33F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9774F16BA547368DF44157 /* SettingsView.swift */; };
+		53875BC70D3CFB3D51E8B61A /* BYOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6889CFC697BF6D193B68A /* BYOClient.swift */; };
+		6361EDC2893A7148F9162273 /* RepTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E1F9F3F2B709F292EB0D81 /* RepTaskView.swift */; };
+		649E508A25DD6935AE743996 /* PhotoTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1609989BC26A221985100F4 /* PhotoTaskView.swift */; };
+		66747A40CDF37E73BE0E208D /* AISettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659F6EE0C3DD79D4507E364 /* AISettingsView.swift */; };
+		6BF7043BDC20F98393928EB6 /* RepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A800B8801E6DADD54CC965 /* RepCounter.swift */; };
+		7072B3A9EFF8D6B1C07425EC /* AppGroupStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379A57C0A26B4D7BAD51D0C /* AppGroupStore.swift */; };
+		73CDB60D493ECCF363D238EE /* WakeForgeWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 872B09C50D1ADD2AC922E6C4 /* WakeForgeWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78D9A443CFEFD84C2ED20171 /* WFTaskMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F39E163D98C48D1B99F24 /* WFTaskMetadata.swift */; };
+		84BD78206E6EE1B1BB9DBBAB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6600AA68E3C3864842BC50BC /* RootView.swift */; };
+		8E7C1D54B342372CC01D6C32 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1F3B1CC54FA6C5ED70829 /* SubscriptionManager.swift */; };
+		8FA9244E589D3F1370A0CD04 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AF4E29F9B69B1FD969F2C /* AlarmScheduler.swift */; };
+		90399E6BFFDC7BD2FC1CCAB5 /* TaskRunnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CAD80B8F2B9009D9CB8006 /* TaskRunnerView.swift */; };
+		9A6A0A5A525BA384003B5086 /* StepsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28773D66A058E41A7113CAD4 /* StepsService.swift */; };
+		A7FBBC33572E98D63C50064C /* WFTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3854EF29A40D9BABF3B90F82 /* WFTheme.swift */; };
+		AEEE5EA86B77F63063F3D99B /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B613439B94AEDE15FE14F /* StatsView.swift */; };
+		B3136FE7F291D6BA9EE62D80 /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585DF3E9FA143D866702C65 /* CameraSession.swift */; };
+		B460622286964B7104E8F699 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0B5A68CEA893BD26C546B4 /* OnboardingView.swift */; };
+		B88AC64AC77CDCA0DC907DB9 /* AlarmEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007AEFC08E16EB453A77DEE /* AlarmEditorView.swift */; };
+		C04D2D3F4DBCF6DEC1D6BCC7 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EE172369C82278F0F1F96F4C /* PrivacyInfo.xcprivacy */; };
+		C133873E51E96EC9F82C6125 /* ContactSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D92C1A780818B9731F2F12 /* ContactSupportView.swift */; };
+		C834D487509965713C02905D /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B3AC779813497B0C76484 /* KeychainHelper.swift */; };
+		C92F77566D34EDD11C20C6D4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A043F0FFFC547A5CC77D4418 /* PrivacyInfo.xcprivacy */; };
+		C98DE860EF68FA0074E877B8 /* MorningChainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EF7FA96782002CF75E987E /* MorningChainStore.swift */; };
+		CE18E190F39951FB954DF4C5 /* HealthKitInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1092F4E6DA1E8A873EC4BFD /* HealthKitInfoView.swift */; };
+		D4E117A6F63261E370BEDE9E /* WFTaskMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390F39E163D98C48D1B99F24 /* WFTaskMetadata.swift */; };
+		D75A4C40A0143B88F05DF5C3 /* AIProviderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DC8B161D998EF30F56836 /* AIProviderRouter.swift */; };
+		DEB53446BA9EDD3D6AE0C414 /* TaskRunnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C230477B2ECD8EBD4FAD07 /* TaskRunnerViewModel.swift */; };
+		E0FCF2E58D4D90A66167CAD9 /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3629AAADE260BF37CCBDAA06 /* FeedbackService.swift */; };
+		F6AF17854B78B01F9AF2BAD0 /* AlarmProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134A9BD1BC061C1C0F3FE45 /* AlarmProfile.swift */; };
+		FB6B6BF857E5845EDE79CAAA /* AppGroupStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2379A57C0A26B4D7BAD51D0C /* AppGroupStore.swift */; };
+		FD6CAE0BFBE649224620D3ED /* QuotaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E24F5622A5623FB2353FE9 /* QuotaStore.swift */; };
+		FF68CEA19DFABCB89DCA1AF8 /* MorningChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315A19E3157E87C8E4B6848 /* MorningChainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A84E5C7F17D58555D75E98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D8A4BD87EBE85FB2582DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9049AAD29BE08B34A4906FB2;
+			remoteInfo = WakeForgeWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CF281602281310C67248F6C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				73CDB60D493ECCF363D238EE /* WakeForgeWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		023420DC91213B3BD90D5B35 /* StepsTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTaskView.swift; sourceTree = "<group>"; };
+		037D339FC9E572364B9CC769 /* CelebrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationView.swift; sourceTree = "<group>"; };
+		0A90BD90EF74E71F5755E759 /* WakeForgeWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeForgeWidgetBundle.swift; sourceTree = "<group>"; };
+		14EF7FA96782002CF75E987E /* MorningChainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningChainStore.swift; sourceTree = "<group>"; };
+		1C0B5A68CEA893BD26C546B4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2379A57C0A26B4D7BAD51D0C /* AppGroupStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupStore.swift; sourceTree = "<group>"; };
+		28773D66A058E41A7113CAD4 /* StepsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsService.swift; sourceTree = "<group>"; };
+		3629AAADE260BF37CCBDAA06 /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		3854EF29A40D9BABF3B90F82 /* WFTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFTheme.swift; sourceTree = "<group>"; };
+		390F39E163D98C48D1B99F24 /* WFTaskMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFTaskMetadata.swift; sourceTree = "<group>"; };
+		4134A9BD1BC061C1C0F3FE45 /* AlarmProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmProfile.swift; sourceTree = "<group>"; };
+		421AF4E29F9B69B1FD969F2C /* AlarmScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmScheduler.swift; sourceTree = "<group>"; };
+		53D92C1A780818B9731F2F12 /* ContactSupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupportView.swift; sourceTree = "<group>"; };
+		5768927E6B4D9A3E64F45D75 /* BYOStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYOStore.swift; sourceTree = "<group>"; };
+		5AE6889CFC697BF6D193B68A /* BYOClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYOClient.swift; sourceTree = "<group>"; };
+		5E0601EE08AAC0D51B58DD29 /* WakeForge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WakeForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CAD80B8F2B9009D9CB8006 /* TaskRunnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRunnerView.swift; sourceTree = "<group>"; };
+		6600AA68E3C3864842BC50BC /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		6EE1F3B1CC54FA6C5ED70829 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		6F0DF96A033C3B1741CBAE39 /* WakeForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeForgeApp.swift; sourceTree = "<group>"; };
+		77EEEB43047B38B3F505C89C /* MentalTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalTaskView.swift; sourceTree = "<group>"; };
+		7B3B3AC779813497B0C76484 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		872B09C50D1ADD2AC922E6C4 /* WakeForgeWidgetExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = WakeForgeWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		888B613439B94AEDE15FE14F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		8A0FA20202DFF358DECCF572 /* StreakStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakStore.swift; sourceTree = "<group>"; };
+		9007AEFC08E16EB453A77DEE /* AlarmEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEditorView.swift; sourceTree = "<group>"; };
+		9AB3678854E9155836EC14F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CBD89C3C4C27B8712895B87 /* GLMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMClient.swift; sourceTree = "<group>"; };
+		A043F0FFFC547A5CC77D4418 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A1609989BC26A221985100F4 /* PhotoTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTaskView.swift; sourceTree = "<group>"; };
+		A1A800B8801E6DADD54CC965 /* RepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepCounter.swift; sourceTree = "<group>"; };
+		B1092F4E6DA1E8A873EC4BFD /* HealthKitInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitInfoView.swift; sourceTree = "<group>"; };
+		B315A19E3157E87C8E4B6848 /* MorningChainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningChainView.swift; sourceTree = "<group>"; };
+		B7E24F5622A5623FB2353FE9 /* QuotaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaStore.swift; sourceTree = "<group>"; };
+		B9C230477B2ECD8EBD4FAD07 /* TaskRunnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRunnerViewModel.swift; sourceTree = "<group>"; };
+		DA44FAFA46627048A287FBD7 /* AppleAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAIService.swift; sourceTree = "<group>"; };
+		DAB641CFD942A43ED72E809E /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
+		DE9774F16BA547368DF44157 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E3E1F9F3F2B709F292EB0D81 /* RepTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepTaskView.swift; sourceTree = "<group>"; };
+		E585DF3E9FA143D866702C65 /* CameraSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
+		EE172369C82278F0F1F96F4C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F659F6EE0C3DD79D4507E364 /* AISettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsView.swift; sourceTree = "<group>"; };
+		F7DC9C5A33B4349C21392CD0 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		FC2DC8B161D998EF30F56836 /* AIProviderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProviderRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		04185DD69C7A88543E76F98B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1C0B5A68CEA893BD26C546B4 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		098461C1A84382A9ED0736AA = {
+			isa = PBXGroup;
+			children = (
+				A3C67CBDDA38D80AAFAFE0F0 /* WakeForge */,
+				CEAFA320AE7174A5EFB4362C /* WakeForgeWidget */,
+				97520DEF6487AF689AEA3771 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D4346891D4452DFA7323C31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4134A9BD1BC061C1C0F3FE45 /* AlarmProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1657781BBAA1FAD2BC033CFC /* TaskRunner */ = {
+			isa = PBXGroup;
+			children = (
+				77EEEB43047B38B3F505C89C /* MentalTaskView.swift */,
+				A1609989BC26A221985100F4 /* PhotoTaskView.swift */,
+				E3E1F9F3F2B709F292EB0D81 /* RepTaskView.swift */,
+				023420DC91213B3BD90D5B35 /* StepsTaskView.swift */,
+				61CAD80B8F2B9009D9CB8006 /* TaskRunnerView.swift */,
+				B9C230477B2ECD8EBD4FAD07 /* TaskRunnerViewModel.swift */,
+			);
+			path = TaskRunner;
+			sourceTree = "<group>";
+		};
+		195B4F7DC96EB58940C397C7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6600AA68E3C3864842BC50BC /* RootView.swift */,
+				6F0DF96A033C3B1741CBAE39 /* WakeForgeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3AD89E27467FFFCCB1BBCE69 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				700E657B3DE2E164383D3AB2 /* AlarmEditor */,
+				C2CD09137BAA609FD723EA39 /* AlarmList */,
+				43543D76D101A303E527172A /* Celebration */,
+				88C46435863381064C85D45B /* MorningChain */,
+				04185DD69C7A88543E76F98B /* Onboarding */,
+				71925DB54C960BE0C49726C2 /* Paywall */,
+				4977D92797176E1F89531060 /* Settings */,
+				E37E07830FE6AB412F7879CB /* Stats */,
+				1657781BBAA1FAD2BC033CFC /* TaskRunner */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		43543D76D101A303E527172A /* Celebration */ = {
+			isa = PBXGroup;
+			children = (
+				037D339FC9E572364B9CC769 /* CelebrationView.swift */,
+			);
+			path = Celebration;
+			sourceTree = "<group>";
+		};
+		4494F2F9C434FCF1A31480A6 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				3854EF29A40D9BABF3B90F82 /* WFTheme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		4977D92797176E1F89531060 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F659F6EE0C3DD79D4507E364 /* AISettingsView.swift */,
+				53D92C1A780818B9731F2F12 /* ContactSupportView.swift */,
+				B1092F4E6DA1E8A873EC4BFD /* HealthKitInfoView.swift */,
+				DE9774F16BA547368DF44157 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		569A2128D2815E0A861785BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DC8B161D998EF30F56836 /* AIProviderRouter.swift */,
+				421AF4E29F9B69B1FD969F2C /* AlarmScheduler.swift */,
+				DA44FAFA46627048A287FBD7 /* AppleAIService.swift */,
+				5AE6889CFC697BF6D193B68A /* BYOClient.swift */,
+				5768927E6B4D9A3E64F45D75 /* BYOStore.swift */,
+				E585DF3E9FA143D866702C65 /* CameraSession.swift */,
+				3629AAADE260BF37CCBDAA06 /* FeedbackService.swift */,
+				9CBD89C3C4C27B8712895B87 /* GLMClient.swift */,
+				7B3B3AC779813497B0C76484 /* KeychainHelper.swift */,
+				14EF7FA96782002CF75E987E /* MorningChainStore.swift */,
+				B7E24F5622A5623FB2353FE9 /* QuotaStore.swift */,
+				A1A800B8801E6DADD54CC965 /* RepCounter.swift */,
+				28773D66A058E41A7113CAD4 /* StepsService.swift */,
+				8A0FA20202DFF358DECCF572 /* StreakStore.swift */,
+				6EE1F3B1CC54FA6C5ED70829 /* SubscriptionManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		700E657B3DE2E164383D3AB2 /* AlarmEditor */ = {
+			isa = PBXGroup;
+			children = (
+				9007AEFC08E16EB453A77DEE /* AlarmEditorView.swift */,
+			);
+			path = AlarmEditor;
+			sourceTree = "<group>";
+		};
+		71925DB54C960BE0C49726C2 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				F7DC9C5A33B4349C21392CD0 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		88C46435863381064C85D45B /* MorningChain */ = {
+			isa = PBXGroup;
+			children = (
+				B315A19E3157E87C8E4B6848 /* MorningChainView.swift */,
+			);
+			path = MorningChain;
+			sourceTree = "<group>";
+		};
+		97520DEF6487AF689AEA3771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E0601EE08AAC0D51B58DD29 /* WakeForge.app */,
+				872B09C50D1ADD2AC922E6C4 /* WakeForgeWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C67CBDDA38D80AAFAFE0F0 /* WakeForge */ = {
+			isa = PBXGroup;
+			children = (
+				195B4F7DC96EB58940C397C7 /* App */,
+				4494F2F9C434FCF1A31480A6 /* DesignSystem */,
+				3AD89E27467FFFCCB1BBCE69 /* Features */,
+				0D4346891D4452DFA7323C31 /* Models */,
+				DB7E2C0356952387EE6CF9FC /* Resources */,
+				569A2128D2815E0A861785BA /* Services */,
+				E7136D688DDE6F0FBD2BAB48 /* Shared */,
+				EE172369C82278F0F1F96F4C /* PrivacyInfo.xcprivacy */,
+			);
+			path = WakeForge;
+			sourceTree = "<group>";
+		};
+		C2CD09137BAA609FD723EA39 /* AlarmList */ = {
+			isa = PBXGroup;
+			children = (
+				DAB641CFD942A43ED72E809E /* AlarmListView.swift */,
+			);
+			path = AlarmList;
+			sourceTree = "<group>";
+		};
+		CEAFA320AE7174A5EFB4362C /* WakeForgeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A043F0FFFC547A5CC77D4418 /* PrivacyInfo.xcprivacy */,
+				0A90BD90EF74E71F5755E759 /* WakeForgeWidgetBundle.swift */,
+			);
+			path = WakeForgeWidget;
+			sourceTree = "<group>";
+		};
+		DB7E2C0356952387EE6CF9FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AB3678854E9155836EC14F4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E37E07830FE6AB412F7879CB /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				888B613439B94AEDE15FE14F /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		E7136D688DDE6F0FBD2BAB48 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2379A57C0A26B4D7BAD51D0C /* AppGroupStore.swift */,
+				390F39E163D98C48D1B99F24 /* WFTaskMetadata.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9049AAD29BE08B34A4906FB2 /* WakeForgeWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859F21754BA4365F118AB7D1 /* Build configuration list for PBXNativeTarget "WakeForgeWidgetExtension" */;
+			buildPhases = (
+				2B20A0CA22A0D4A799626DA7 /* Sources */,
+				A124AF582A4D109B26ACF578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeForgeWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WakeForgeWidgetExtension;
+			productReference = 872B09C50D1ADD2AC922E6C4 /* WakeForgeWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A0F9B1BB8774FAF2C8D37715 /* WakeForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA6E876D4BD772CDE524CC6 /* Build configuration list for PBXNativeTarget "WakeForge" */;
+			buildPhases = (
+				816D1A4CD74D97E4B4545345 /* Sources */,
+				9DC01C509E4945420CEA3E2D /* Resources */,
+				1CF281602281310C67248F6C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F559414143256B55CED2E4 /* PBXTargetDependency */,
+			);
+			name = WakeForge;
+			packageProductDependencies = (
+			);
+			productName = WakeForge;
+			productReference = 5E0601EE08AAC0D51B58DD29 /* WakeForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D8A4BD87EBE85FB2582DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9049AAD29BE08B34A4906FB2 = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+					A0F9B1BB8774FAF2C8D37715 = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5AE51B99A479EFF982493B36 /* Build configuration list for PBXProject "WakeForge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 098461C1A84382A9ED0736AA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F9B1BB8774FAF2C8D37715 /* WakeForge */,
+				9049AAD29BE08B34A4906FB2 /* WakeForgeWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC01C509E4945420CEA3E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36CC9DF9E7782EF2A60D90 /* Assets.xcassets in Resources */,
+				C04D2D3F4DBCF6DEC1D6BCC7 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A124AF582A4D109B26ACF578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92F77566D34EDD11C20C6D4 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B20A0CA22A0D4A799626DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7072B3A9EFF8D6B1C07425EC /* AppGroupStore.swift in Sources */,
+				78D9A443CFEFD84C2ED20171 /* WFTaskMetadata.swift in Sources */,
+				14B641B245147AB5683E934D /* WakeForgeWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816D1A4CD74D97E4B4545345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75A4C40A0143B88F05DF5C3 /* AIProviderRouter.swift in Sources */,
+				66747A40CDF37E73BE0E208D /* AISettingsView.swift in Sources */,
+				B88AC64AC77CDCA0DC907DB9 /* AlarmEditorView.swift in Sources */,
+				1A780B7706CA76F34E8076FC /* AlarmListView.swift in Sources */,
+				F6AF17854B78B01F9AF2BAD0 /* AlarmProfile.swift in Sources */,
+				8FA9244E589D3F1370A0CD04 /* AlarmScheduler.swift in Sources */,
+				FB6B6BF857E5845EDE79CAAA /* AppGroupStore.swift in Sources */,
+				1B053F7CFBACB4F74EC49C6A /* AppleAIService.swift in Sources */,
+				53875BC70D3CFB3D51E8B61A /* BYOClient.swift in Sources */,
+				28BCC681008649E0E6BEAC4C /* BYOStore.swift in Sources */,
+				B3136FE7F291D6BA9EE62D80 /* CameraSession.swift in Sources */,
+				196B8517B96CC7DD7EB30509 /* CelebrationView.swift in Sources */,
+				C133873E51E96EC9F82C6125 /* ContactSupportView.swift in Sources */,
+				E0FCF2E58D4D90A66167CAD9 /* FeedbackService.swift in Sources */,
+				05A27B28E5A26328AADA17D1 /* GLMClient.swift in Sources */,
+				CE18E190F39951FB954DF4C5 /* HealthKitInfoView.swift in Sources */,
+				C834D487509965713C02905D /* KeychainHelper.swift in Sources */,
+				12E37FBB90FBDC2C8F19AFC2 /* MentalTaskView.swift in Sources */,
+				C98DE860EF68FA0074E877B8 /* MorningChainStore.swift in Sources */,
+				FF68CEA19DFABCB89DCA1AF8 /* MorningChainView.swift in Sources */,
+				B460622286964B7104E8F699 /* OnboardingView.swift in Sources */,
+				24E477DE7667BE71B2C2B2EB /* PaywallView.swift in Sources */,
+				649E508A25DD6935AE743996 /* PhotoTaskView.swift in Sources */,
+				FD6CAE0BFBE649224620D3ED /* QuotaStore.swift in Sources */,
+				6BF7043BDC20F98393928EB6 /* RepCounter.swift in Sources */,
+				6361EDC2893A7148F9162273 /* RepTaskView.swift in Sources */,
+				84BD78206E6EE1B1BB9DBBAB /* RootView.swift in Sources */,
+				469A99B5311A707717D8B33F /* SettingsView.swift in Sources */,
+				AEEE5EA86B77F63063F3D99B /* StatsView.swift in Sources */,
+				9A6A0A5A525BA384003B5086 /* StepsService.swift in Sources */,
+				1609AF8ADEB6C6F58C0E90C6 /* StepsTaskView.swift in Sources */,
+				1949280E8DB74CED542EB1CD /* StreakStore.swift in Sources */,
+				8E7C1D54B342372CC01D6C32 /* SubscriptionManager.swift in Sources */,
+				90399E6BFFDC7BD2FC1CCAB5 /* TaskRunnerView.swift in Sources */,
+				DEB53446BA9EDD3D6AE0C414 /* TaskRunnerViewModel.swift in Sources */,
+				D4E117A6F63261E370BEDE9E /* WFTaskMetadata.swift in Sources */,
+				A7FBBC33572E98D63C50064C /* WFTheme.swift in Sources */,
+				2896BF1D24A26A72AF26A19B /* WakeForgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1F559414143256B55CED2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9049AAD29BE08B34A4906FB2 /* WakeForgeWidgetExtension */;
+			targetProxy = 7A84E5C7F17D58555D75E98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CE3A32C1B703F5244AE2BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		588CECB055C5D639ABB5B136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WakeForgeWidget/WakeForgeWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WakeForgeWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.WakeForge.Widget;
+				PRODUCT_NAME = WakeForgeWidgetExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C5C6BB548059AD6A5CECC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77AAECF8A6B23632F6FD7FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WakeForge/WakeForge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WakeForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.WakeForge;
+				PRODUCT_NAME = WakeForge;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		967386C9D710E22FB45BADA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WakeForge/WakeForge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EXCLUDED_SOURCE_FILE_NAMES = GLMProxySecret.txt;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WakeForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.WakeForge;
+				PRODUCT_NAME = WakeForge;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0CA2D70F37FCCAF573D8BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WakeForgeWidget/WakeForgeWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WakeForgeWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.WakeForge.Widget;
+				PRODUCT_NAME = WakeForgeWidgetExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA6E876D4BD772CDE524CC6 /* Build configuration list for PBXNativeTarget "WakeForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77AAECF8A6B23632F6FD7FFF /* Debug */,
+				967386C9D710E22FB45BADA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5AE51B99A479EFF982493B36 /* Build configuration list for PBXProject "WakeForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5C6BB548059AD6A5CECC52 /* Debug */,
+				3CE3A32C1B703F5244AE2BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		859F21754BA4365F118AB7D1 /* Build configuration list for PBXNativeTarget "WakeForgeWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0CA2D70F37FCCAF573D8BF8 /* Debug */,
+				588CECB055C5D639ABB5B136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D8A4BD87EBE85FB2582DC5 /* Project object */;
+}
