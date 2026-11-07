@@ -15,10 +15,10 @@
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/WakeForge/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/WakeForge/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/WakeForge/privacy.html | ⏳ Pending |
-| Terms of Use | https://asunnyboy861.github.io/WakeForge/terms.html | ⏳ Pending |
+| Landing Page | https://asunnyboy861.github.io/WakeForge/ | ✅ Active |
+| Support | https://asunnyboy861.github.io/WakeForge/support.html | ✅ Active |
+| Privacy Policy | https://asunnyboy861.github.io/WakeForge/privacy.html | ✅ Active |
+| Terms of Use | https://asunnyboy861.github.io/WakeForge/terms.html | ✅ Active |
 
 ## Repository Structure
 
