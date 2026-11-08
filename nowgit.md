@@ -11,6 +11,14 @@
 | **Primary Language** | Swift |
 | **GitHub Pages** | ✅ ENABLED (source: `/docs` folder) |
 
+## App Store
+
+| Item | Value |
+|------|-------|
+| **Apple ID** | 6832173708 |
+| **App Store URL** | https://apps.apple.com/us/app/id6832173708 |
+| **Custom Product Page** | https://apps.apple.com/us/app/wakeforge/id6832173708?ppid=14ef7a79-3cdc-4b9c-abaa-b0ba9544bf93 |
+
 ## Policy Pages (Deployed from Main Repository /docs)
 
 | Page | URL | Status |
